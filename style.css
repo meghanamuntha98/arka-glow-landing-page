@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  color: #222;
+  line-height: 1.6;
+}
+
+/* HEADER */
+.header {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 10%;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-image img {
+  max-width: 300px;
+}
+
+/* BUTTON */
+.btn-primary {
+  background: #1f7a5f;
+  color: #fff;
+  padding: 14px 28px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 10%;
+}
+
+section h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+/* BENEFITS */
+.benefit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.benefit-card {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+
+/* INGREDIENTS */
+.ingredients ul {
+  list-style: none;
+}
+
+.ingredients li {
+  margin-bottom: 10px;
+}
+
+/* HOW TO USE */
+.how-to-use ol {
+  margin-left: 20px;
+}
+
+/* SOCIAL PROOF */
+.social-proof p {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+/* CTA */
+.cta {
+  background: #f4f9f7;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
