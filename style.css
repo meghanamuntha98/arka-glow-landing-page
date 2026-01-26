@@ -128,13 +128,20 @@ section h2 {
   min-height: auto;
 }
 /* FAQ Styling */
+/* ===== FAQ FINAL FIX ===== */
+
 .faq {
-  max-width: 700px;
-  margin-left: 0;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.faq h2 {
+  text-align: left;
 }
 
 .faq-item {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .faq-question {
@@ -144,8 +151,9 @@ section h2 {
 
 .faq-answer {
   color: #555;
-  line-height: 1.5;
+  line-height: 1.6;
 }
+
 
 
 /* HOW TO USE */
