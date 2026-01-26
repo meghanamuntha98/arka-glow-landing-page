@@ -107,18 +107,18 @@ section h2 {
   text-align: center;
   padding: 40px 10%;
 }
+
 .cta h2 {
   margin-bottom: 15px;
 }
-.cta .btn-primary {
-  display: inline-block;
-}
-
 
 .cta p {
   margin-bottom: 20px;
 }
 
+.cta .btn-primary {
+  display: inline-block;
+}
 
 .footer {
   text-align: center;
