@@ -135,6 +135,10 @@ section h2 {
 
 
 /* HOW TO USE */
+.how-to-use {
+  padding-bottom: 20px;
+}
+
 .how-to-use ol {
   margin-left: 20px;
 }
