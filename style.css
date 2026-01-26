@@ -60,8 +60,16 @@ body {
 
 /* SECTIONS */
 section {
-  padding: 60px 10%;
+  padding: 30px 10%;
 }
+section h2 {
+  margin-bottom: 16px;
+}
+
+section p {
+  margin-bottom: 14px;
+}
+
 
 section h2 {
   margin-bottom: 30px;
