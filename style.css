@@ -131,6 +131,14 @@ section h2 {
 .cta .btn-primary {
   display: inline-block;
 }
+section:not(.cta) {
+  padding-bottom: 40px;
+}
+
+.cta {
+  margin-top: 20px;
+}
+
 
 .footer {
   text-align: center;
