@@ -30,6 +30,10 @@ body {
   align-items: center;
   gap: 40px;
 }
+.hero {
+  min-height: 70vh;
+}
+
 
 .hero-text {
   flex: 1;
