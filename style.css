@@ -178,6 +178,10 @@ section h2 {
 
 /* CTA */
 .cta {
+  text-align: center;
+}
+
+.cta {
   background: #f4f9f7;
   text-align: center;
   padding: 40px 10%;
