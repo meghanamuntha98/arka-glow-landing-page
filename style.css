@@ -55,12 +55,18 @@ body {
 
 /* BUTTON */
 .btn-primary {
-  background: #1f7a5f;
+  background: #E07A2F;
   color: #fff;
   padding: 14px 28px;
   text-decoration: none;
   border-radius: 4px;
+  transition: background 0.2s ease;
 }
+
+.btn-primary:hover {
+  background: #C96825;
+}
+
 
 /* SECTIONS */
 section {
