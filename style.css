@@ -99,6 +99,12 @@ section h2 {
   color: #666;
   margin-top: 10px;
 }
+.faq-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: left;
+}
+
 
 
 /* BENEFITS */
