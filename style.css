@@ -105,7 +105,20 @@ section h2 {
 .cta {
   background: #f4f9f7;
   text-align: center;
+  padding: 40px 10%;
 }
+.cta h2 {
+  margin-bottom: 15px;
+}
+.cta .btn-primary {
+  display: inline-block;
+}
+
+
+.cta p {
+  margin-bottom: 20px;
+}
+
 
 .footer {
   text-align: center;
