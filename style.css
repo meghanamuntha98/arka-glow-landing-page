@@ -79,6 +79,12 @@ section h2 {
   margin-bottom: 30px;
   font-size: 28px;
 }
+.trust-note {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
 
 /* BENEFITS */
 .benefit-grid {
