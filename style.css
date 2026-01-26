@@ -11,6 +11,12 @@ body {
   background: #FBF8F4;
 }
 
+.hero,
+.cta {
+  background: #F4EFE9;
+}
+
+
 
 /* HEADER */
 .header {
