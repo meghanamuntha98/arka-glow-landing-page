@@ -108,6 +108,12 @@ section h2 {
 .ingredients li {
   margin-bottom: 10px;
 }
+.hero {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  min-height: auto;
+}
+
 
 /* HOW TO USE */
 .how-to-use ol {
