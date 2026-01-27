@@ -1,163 +1,210 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
 
-  <title>Arka Glow | Ayurvedic Vitamin C Serum for Glowing Skin</title>
+/* BASE */
+body {
+  color: #222;
+  line-height: 1.6;
+  background: #FBF8F4; /* warm minimal background */
+}
 
-  <meta
-    name="description"
-    content="Arka Glow is an Ayurvedic Vitamin C serum powered by Amla & Kakadu Plum. Gentle, effective glow for Indian and sensitive skin."
-  />
+/* HEADER */
+.header {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css?v=9">
+.logo {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
 
-</head>
+/* HERO */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 10%;
+  background: #F4EFE9;
+}
 
-<body>
+.hero-text {
+  flex: 1;
+}
 
-  <!-- HEADER -->
-  <header class="header">
-    <h1 class="logo">Arka Glow</h1>
-  </header>
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-text">
-      <h1>Ayurvedic Vitamin C Serum for Natural Glow</h1>
-      <p>
-        Powered by Amla & Kakadu Plum.  
-        Gentle, effective Vitamin C designed for Indian skin.
-      </p>
-      <a href="#cta" class="btn-primary">Join Early Access</a>
-    </div>
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
 
-    <div class="hero-image">
-      <img
-        src="images/serum.png"
-        alt="Arka Glow Ayurvedic Vitamin C Serum Bottle"
-      />
-    </div>
-  </section>
+.hero-image img {
+  max-width: 300px;
+}
 
-  <!-- BENEFITS -->
-  <section class="benefits">
-    <h2>Why Arka Glow?</h2>
+/* BUTTON */
+.btn-primary {
+  background: #E07A2F; /* earthy orange */
+  color: #fff;
+  padding: 14px 28px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
 
-    <div class="benefit-grid">
-      <div class="benefit-card">
-        <h3>Ayurvedic Vitamin C</h3>
-        <p>
-          Natural Vitamin C derived from traditional ingredients that work with
-          your skin barrier.
-        </p>
-      </div>
+.btn-primary:hover {
+  background: #C96825;
+}
 
-      <div class="benefit-card">
-        <h3>For Indian Skin</h3>
-        <p>
-          Formulated to reduce irritation, pigmentation & dullness.
-        </p>
-      </div>
+/* SECTIONS */
+section {
+  padding: 40px 10%;
+}
 
-      <div class="benefit-card">
-        <h3>Gentle & Effective</h3>
-        <p>
-          No harsh chemicals. Just consistent, healthy glow.
-        </p>
-      </div>
-    </div>
-  </section>
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
 
-  <!-- INGREDIENTS -->
-  <section class="ingredients">
-    <h2>Key Ingredients</h2>
+section p {
+  margin-bottom: 14px;
+}
 
-    <ul>
-      <li><strong>Amla:</strong> Natural Vitamin C + antioxidants</li>
-      <li><strong>Kakadu Plum:</strong> Brightening & collagen support</li>
-      <li><strong>Turmeric Extract:</strong> Calms and protects skin</li>
-    </ul>
+/* TRUST NOTE */
+.trust-note {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
 
-    <p class="trust-note">
-      Formulated with dermatology-inspired Ayurvedic principles.
-    </p>
+/* LEARN MORE LINK */
+.learn-more {
+  margin-top: 14px;
+  font-size: 15px;
+}
 
-    <p class="learn-more">
-      Want to understand how Ayurvedic Vitamin C works for Indian skin?
-      <a
-        href="https://www.notion.so/Why-Ayurvedic-Vitamin-C-is-Better-for-Indian-Skin-2f466dd2b80080eea79ad5c58b915ba9"
-        target="_blank"
-        rel="noopener"
-      >
-        Read our detailed skin guide →
-      </a>
-    </p>
-  </section>
+.learn-more a {
+  color: #E07A2F;
+  text-decoration: none;
+  font-weight: 500;
+}
 
-  <!-- HOW TO USE -->
-  <section class="how-to-use">
-    <h2>How to Use</h2>
-    <ol>
-      <li>Cleanse your face</li>
-      <li>Apply 2–3 drops of Arka Glow</li>
-      <li>Follow with moisturizer & sunscreen</li>
-    </ol>
-  </section>
+.learn-more a:hover {
+  text-decoration: underline;
+}
 
-  <!-- FAQ -->
-  <section class="faq-wrapper">
-    <div class="faq">
-      <h2>FAQs</h2>
+/* BENEFITS */
+.benefit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
 
-      <div class="faq-item">
-        <p class="faq-question">
-          Is this suitable for sensitive skin?
-        </p>
-        <p class="faq-answer">
-          Yes, Arka Glow is designed to be gentle and irritation-free.
-        </p>
-      </div>
+.benefit-card {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  background: #fff;
+}
 
-      <div class="faq-item">
-        <p class="faq-question">
-          Can I use this daily?
-        </p>
-        <p class="faq-answer">
-          Yes, it is safe for daily morning use.
-        </p>
-      </div>
-    </div>
-  </section>
+.benefit-card h3 {
+  margin-bottom: 8px;
+}
 
-  <!-- SOCIAL PROOF -->
-  <section class="social-proof">
-    <h2>Loved by Early Users</h2>
-    <p>“My skin feels brighter without irritation.”</p>
-    <p>“Finally, a Vitamin C that suits sensitive skin.”</p>
-  </section>
+/* INGREDIENTS */
+.ingredients ul {
+  list-style: none;
+}
 
-  <!-- CTA -->
-  <section class="cta" id="cta">
-    <h2>Be the First to Experience Arka Glow</h2>
-    <p>Join our early access list for updates & launch offers.</p>
+.ingredients li {
+  margin-bottom: 10px;
+}
 
-    <a
-      href="https://www.instagram.com/arka_glow/"
-      class="btn-primary"
-      target="_blank"
-      rel="noopener"
-    >
-      Follow on Instagram
-    </a>
-  </section>
+/* HOW TO USE */
+.how-to-use ol {
+  margin-left: 20px;
+}
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <p>© 2026 Arka Glow. All rights reserved.</p>
-  </footer>
+/* FAQ */
+.faq-wrapper {
+  padding: 40px 10%;
+}
 
-</body>
-</html>
+.faq {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.faq h2 {
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  margin-bottom: 24px;
+}
+
+.faq-question {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.faq-answer {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* SOCIAL PROOF */
+.social-proof p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* CTA */
+.cta {
+  background: #F4EFE9;
+  text-align: center;
+  padding: 40px 10%;
+  margin-top: 20px;
+}
+
+.cta h2 {
+  margin-bottom: 15px;
+}
+
+.cta p {
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #eee;
+  font-size: 14px;
+  color: #666;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+  }
+
+  .hero-image {
+    margin: 0 auto;
+  }
+}
+
