@@ -131,13 +131,16 @@ section h2 {
 }
 /* FAQ Styling */
 
+/* FAQ */
 .faq {
-  padding: 40px 10%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .faq-inner {
-  max-width: 720px;
+  max-width: 640px;
   margin: 0 auto;
+  padding: 0 20px;
   text-align: left;
 }
 
@@ -160,11 +163,10 @@ section h2 {
   line-height: 1.6;
 }
 
-/* Desktop refinement */
-@media (min-width: 768px) {
-  .faq-inner {
-    max-width: 640px;
-  }
+/* ===== FAQ HARD FIX ===== */
+.faq {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 
