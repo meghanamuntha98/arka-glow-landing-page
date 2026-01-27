@@ -205,6 +205,12 @@ section:not(.cta) {
 .cta {
   margin-top: 20px;
 }
+/* ===== Desktop layout fix ===== */
+@media (min-width: 768px) {
+  .faq-inner {
+    max-width: 640px;
+  }
+}
 
 
 .footer {
