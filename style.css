@@ -129,6 +129,21 @@ section h2 {
   padding-bottom: 40px;
   min-height: auto;
 }
+.learn-more {
+  margin-top: 14px;
+  font-size: 15px;
+}
+
+.learn-more a {
+  color: #E07A2F;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.learn-more a:hover {
+  text-decoration: underline;
+}
+
 
   /*FAQ HARD */
 
