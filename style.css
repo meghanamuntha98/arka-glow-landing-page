@@ -129,16 +129,15 @@ section h2 {
   padding-bottom: 40px;
   min-height: auto;
 }
-/* FAQ Styling */
 
-/* FAQ */
-.faq {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  /*FAQ HARD */
+
+.faq-wrapper {
+  padding: 40px 0;
 }
 
-.faq-inner {
-  max-width: 640px;
+.faq {
+  max-width: 600px;
   margin: 0 auto;
   padding: 0 20px;
   text-align: left;
@@ -163,11 +162,6 @@ section h2 {
   line-height: 1.6;
 }
 
-/* ===== FAQ HARD FIX ===== */
-.faq {
-  padding-left: 0;
-  padding-right: 0;
-}
 
 
 
