@@ -130,11 +130,11 @@ section h2 {
   min-height: auto;
 }
 /* FAQ Styling */
+
 .faq {
-  max-width: 720px;
-  margin: 0 auto;
-  text-align: left;
+  padding: 40px 10%;
 }
+
 .faq-inner {
   max-width: 720px;
   margin: 0 auto;
@@ -142,6 +142,7 @@ section h2 {
 }
 
 .faq h2 {
+  margin-bottom: 20px;
   text-align: left;
 }
 
@@ -158,6 +159,14 @@ section h2 {
   color: #555;
   line-height: 1.6;
 }
+
+/* Desktop refinement */
+@media (min-width: 768px) {
+  .faq-inner {
+    max-width: 640px;
+  }
+}
+
 
 
 
@@ -204,12 +213,6 @@ section:not(.cta) {
 
 .cta {
   margin-top: 20px;
-}
-/* ===== Desktop layout fix ===== */
-@media (min-width: 768px) {
-  .faq-inner {
-    max-width: 640px;
-  }
 }
 
 
